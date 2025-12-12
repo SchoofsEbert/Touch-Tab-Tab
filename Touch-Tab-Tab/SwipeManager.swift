@@ -16,11 +16,11 @@ class SwipeManager {
     private static func listener(_ eventType: EventType) {
         switch eventType {
         case .startOrContinue(.left):
-            AppSwitcher.cmdShiftTab()
+            TabSwitcher.ctrlShitTab()
         case .startOrContinue(.right):
-            AppSwitcher.cmdTab()
+            TabSwitcher.ctrlTab()
         case .end:
-            AppSwitcher.selectInAppSwitcher()
+            TabSwitcher.selectInAppSwitcher()
         }
     }
 

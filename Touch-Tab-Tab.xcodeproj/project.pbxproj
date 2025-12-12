@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		588922D429BB490400F7F843 /* AppSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588922D329BB490400F7F843 /* AppSwitcher.swift */; };
+		588922D429BB490400F7F843 /* TabSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588922D329BB490400F7F843 /* TabSwitcher.swift */; };
 		58BC5B2C28B3C4C30013EAD3 /* SwipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BC5B2828B3C4C30013EAD3 /* SwipeManager.swift */; };
 		58BC5B2D28B3C4C30013EAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BC5B2928B3C4C30013EAD3 /* Assets.xcassets */; };
 		58BC5B2E28B3C4C30013EAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BC5B2A28B3C4C30013EAD3 /* AppDelegate.swift */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		588922D329BB490400F7F843 /* AppSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwitcher.swift; sourceTree = "<group>"; };
-		58BC5B1528B3C37B0013EAD3 /* Touch-Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch-Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		588922D329BB490400F7F843 /* TabSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSwitcher.swift; sourceTree = "<group>"; };
+		58BC5B1528B3C37B0013EAD3 /* Touch-Tab-Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch-Tab-Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BC5B2828B3C4C30013EAD3 /* SwipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeManager.swift; sourceTree = "<group>"; };
 		58BC5B2928B3C4C30013EAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58BC5B2A28B3C4C30013EAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		58BC5B1628B3C37B0013EAD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58BC5B1528B3C37B0013EAD3 /* Touch-Tab.app */,
+				58BC5B1528B3C37B0013EAD3 /* Touch-Tab-Tab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 				58BC5B2928B3C4C30013EAD3 /* Assets.xcassets */,
 				58BC5B2B28B3C4C30013EAD3 /* main.swift */,
 				58BC5B2828B3C4C30013EAD3 /* SwipeManager.swift */,
-				588922D329BB490400F7F843 /* AppSwitcher.swift */,
+				588922D329BB490400F7F843 /* TabSwitcher.swift */,
 				58DE49C929D09BB70025BE44 /* AboutView.swift */,
 				58D3F9F32A8E14C80021A532 /* PrivacyHelper.swift */,
 			);
@@ -66,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58BC5B1428B3C37B0013EAD3 /* Touch-Tab */ = {
+		58BC5B1428B3C37B0013EAD3 /* Touch-Tab-Tab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58BC5B2428B3C37E0013EAD3 /* Build configuration list for PBXNativeTarget "Touch-Tab" */;
+			buildConfigurationList = 58BC5B2428B3C37E0013EAD3 /* Build configuration list for PBXNativeTarget "Touch-Tab-Tab" */;
 			buildPhases = (
 				58BC5B1128B3C37B0013EAD3 /* Sources */,
 				58BC5B1328B3C37B0013EAD3 /* Resources */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "Touch-Tab";
+			name = "Touch-Tab-Tab";
 			productName = "Touch-Tab";
-			productReference = 58BC5B1528B3C37B0013EAD3 /* Touch-Tab.app */;
+			productReference = 58BC5B1528B3C37B0013EAD3 /* Touch-Tab-Tab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58BC5B1028B3C37B0013EAD3 /* Build configuration list for PBXProject "Touch-Tab" */;
+			buildConfigurationList = 58BC5B1028B3C37B0013EAD3 /* Build configuration list for PBXProject "Touch-Tab-Tab" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58BC5B1428B3C37B0013EAD3 /* Touch-Tab */,
+				58BC5B1428B3C37B0013EAD3 /* Touch-Tab-Tab */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +134,7 @@
 			files = (
 				58BC5B2E28B3C4C30013EAD3 /* AppDelegate.swift in Sources */,
 				58BC5B2C28B3C4C30013EAD3 /* SwipeManager.swift in Sources */,
-				588922D429BB490400F7F843 /* AppSwitcher.swift in Sources */,
+				588922D429BB490400F7F843 /* TabSwitcher.swift in Sources */,
 				58FBBBE529D20D3600A15F66 /* BundleInfo.swift in Sources */,
 				58BC5B2F28B3C4C30013EAD3 /* main.swift in Sources */,
 				58DE49CA29D09BB70025BE44 /* AboutView.swift in Sources */,
@@ -281,7 +281,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.5.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ris58h.Touch-Tab";
+				PRODUCT_BUNDLE_IDENTIFIER = "ebert.Touch-Tab-Tab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -312,7 +312,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.5.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ris58h.Touch-Tab";
+				PRODUCT_BUNDLE_IDENTIFIER = "ebert.Touch-Tab-Tab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58BC5B1028B3C37B0013EAD3 /* Build configuration list for PBXProject "Touch-Tab" */ = {
+		58BC5B1028B3C37B0013EAD3 /* Build configuration list for PBXProject "Touch-Tab-Tab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58BC5B2228B3C37E0013EAD3 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58BC5B2428B3C37E0013EAD3 /* Build configuration list for PBXNativeTarget "Touch-Tab" */ = {
+		58BC5B2428B3C37E0013EAD3 /* Build configuration list for PBXNativeTarget "Touch-Tab-Tab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58BC5B2528B3C37E0013EAD3 /* Debug */,
