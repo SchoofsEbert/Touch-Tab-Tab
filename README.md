@@ -1,31 +1,27 @@
 # Touch-Tab-Tab
 
-Forked from [Touch-Tab appswitcher](https://github.com/ris58h/Touch-Tab/tree/master) by [Ilya Rodionov](https://github.com/ris58h)
+> [!WARNING]
+> **Touch-Tab-Tab is no longer maintained.** Switching tabs with a three-finger swipe is now part of [MissionStrike](https://github.com/SchoofsEbert/MissionStrike), from version 2.11.0.
 
-Switch tabs with trackpad on macOS.
-Use 3-fingers swipe right or 3-fingers swipe left to switch between apps.
+Touch-Tab-Tab switched browser tabs with a three-finger swipe on macOS. MissionStrike does the same, and more:
 
-Want to support? [Buy Ilya a coffee](https://www.buymeacoffee.com/ris58h).
+- Swipe further to skip more tabs, or swipe back to return, in one gesture.
+- Choose the apps it works in, and turn the haptic tick for each tab on or off.
+- It warns when one of macOS's own three-finger gestures would react to the same swipe.
+- It's signed with a stable certificate, so macOS keeps its Accessibility access after updates. Touch-Tab-Tab was ad-hoc signed and could stop working silently after a macOS update until it was removed from Accessibility and added again.
 
-## Installation
-1. Download the [latest](https://github.com/SchoofsEbert/Touch-Tab-Tab/releases/latest/download/Touch-Tab-Tab.zip) `Touch-Tab-Tab.zip` from [Releases](https://github.com/ris58h/Touch-Tab/releases) page.
-2. Unzip the archive and move `Touch-Tab-Tab.app` into the `Applications` folder.
-3. The app is ad-hoc signed so when you run the app macOS will warn you: `"Touch-Tab-Tab" can’t be opened because Apple cannot check it for malicious software`. Right-click the app and click `Open`, a
-pop-up will appear, click `Open` again.
-4. The app needs access to global trackpad events. Allow Touch-Tab-Tab to control your computer in `System Settings > Privacy & Security > Accesibility`. If you had Touch-Tab-Tab installed before you may need to remove Touch-Tab-Tab from the `Accessibility` list first and add it again.
-5. Disable 3-finger swipe between full-screen apps or make it 4-finger in `System Settings > Trackpad > More Gestures > Swipe between full-screen apps`.
+## Moving to MissionStrike
 
-## Usage
-- Use 3-fingers swipe right or 3-fingers swipe left to switch between tabs.
+1. Quit Touch-Tab-Tab, delete it from `Applications`, and remove it from `System Settings > Privacy & Security > Accessibility` and from your login items.
+2. Install MissionStrike:
 
-### Hide Status Bar Item
-Holding ⌘ drag the item away from the status bar until you see ✖️ (cross icon) then let it go. To recover the item just open the app one more time.
+   ```bash
+   brew install --cask schoofsebert/tap/missionstrike
+   ```
 
-## Troubleshooting
-### "Touch-Tab-Tab" can’t be opened because Apple cannot check it for malicious software
-Right-click the app and click `Open`, a pop-up will appear, click `Open` again.
-### It's running but doesn't work
-- Check that Touch-Tab-Tab is allowed to control your computer in `System Settings > Privacy & Security > Accesibility`.  If you had Touch-Tab-Tab installed before you may need to remove Touch-Tab-Tab from the `Accessibility` list first and add it again.
-- Check that 3-finger swipe is disabled in `System Settings > Trackpad > More Gestures > Swipe between full-screen apps`.
-### It still doesn't work
-Please create an [issue](https://github.com/SchoofsEbert/Touch-Tab-Tab/issues).
+   See [its README](https://github.com/SchoofsEbert/MissionStrike#install) for other ways to install.
+3. Open MissionStrike, follow the setup to grant Accessibility access, and turn on `Settings > Trackpad > Swipe Between Tabs`.
+
+## Credits
+
+Touch-Tab-Tab was a fork of [Touch-Tab](https://github.com/ris58h/Touch-Tab) by [Ilya Rodionov](https://github.com/ris58h), which switches apps with a three-finger swipe. Want to support Ilya? [Buy him a coffee](https://www.buymeacoffee.com/ris58h).
